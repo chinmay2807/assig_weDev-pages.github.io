@@ -5,4 +5,25 @@ body{
 }
 h1{
     color: antiquewhite;
+    text-shadow: 1px 1px 1px black,-1px -1px 1px black;
+}
+#ass1{
+    color: purple;
+    text-shadow: 1px 1px 1px pink,-1px -1px 1px pink;
+    font-size: 2em;
+}
+a:visited{
+    color: red;
+}
+a:link{
+    color: gold;
+}
+a:hover{
+    color: aqua;
+    font-size: 1.2em;
+}
+a:active{
+    color: bisque;
+    font-size: 1.3em;
+    font-style: italic;
 }

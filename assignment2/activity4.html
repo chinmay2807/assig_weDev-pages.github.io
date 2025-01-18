@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color: rgba(0, 0, 0, 0.804);
+      color: teal;
+    }
+  </style>
+</head>
+<body>
+  <div>This is a div element.</div>
+  <span>This is a span element.</span>
+  <p>Another example:
+    <div>This is another div inside a paragraph.</div>
+    <span>This is another span inside a paragraph.</span>
+  </p>
+  <hr>
+  <div>This is a div element.</div>
+  <section>This is a section</section>
+  <hr>
+  <p>this is a paragraph element</p>
+  <section>this is a section</section>
+  <hr>
+  <nav aria-label="primary navigation">
+    <p>this is primary navigation area</p>
+    <a href="#art1">article in html</a>
+  </nav>
+  <article id="art1">this is an article</article>
+  <hr> 
+  <img src="https://i0.wp.com/www.brendanconnolly.net/wp-content/uploads/2016/02/simple.jpg?w=700" alt="this is a meme" title="meme pro max" width="100">
+  <figure>
+    <img src="https://i0.wp.com/www.brendanconnolly.net/wp-content/uploads/2016/02/simple.jpg?w=700" alt="Good meme" title="A meme" width="100">
+    <figcaption>A meme</figcaption>
+  </figure>
+  <hr>
+  <form action="https://httpbin.org/get" method="get">
+    <fieldset>
+      <legend>Personal Information</legend>
+      <label for="firstname">First Name: </label>
+      <input type="text" name="firstname" id="firstname" autocomplete="on" required placeholder="Chinmay" autofocus>
+      <br>
+      <label for="lastname">Last Name: </label>
+      <input type="text" name="lastname" id="lastname" autocomplete="on" placeholder="Agarwal" required>
+      <br>
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" autocomplete="on" placeholder="Vit69*%$" required>
+      <br>
+      <label for="contact">Contact Number</label>
+      <input type="tel" name="c ontact Number" id="contact" autocomplete="on" placeholder="9078563412" pattern="[0-9]{10}">
+      <br>
+      <label for="size">what is optimal weight of cake:</label>
+      <input type="number" name="weight" id="size" value="400" min="150" max="900" step="50">
+    </fieldset>
+  </form>
+  <hr>
+  <p><strong>Strong:</strong> <b>Bold:</b> <em>Emphasis:</em></p>
+
+
+
+</body>
+</html>

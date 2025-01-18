@@ -1,0 +1,43 @@
+h1{
+    font-size: 16px;
+    color: beige;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    font-size: 14px;
+    color: green;
+}
+p{
+    font-size: 12px;
+    color: olivedrab;
+    text-align: justify;
+}
+div{
+    border: 1px solid antiquewhite;
+     padding: 10px; 
+     margin: 10px;
+    background-color: azure;
+}
+.vertical-text {
+    writing-mode: vertical-lr; 
+    transform: rotate(180deg);
+    color: sienna; 
+  }
+.hover{
+    overflow: hidden;
+    width: 200px;
+    height: 40px;
+    border: 1px solid lightcoral;
+    color: lightslategray;
+}
+.hover:hover{
+    overflow: visible;
+}
+img{
+    border-radius: 15%; 
+  box-shadow: 0 10px 20px 0 rgba(43, 3, 3, 0.2), 
+              0 20px 40px 0 rgba(207, 119, 150, 0.19);
+}

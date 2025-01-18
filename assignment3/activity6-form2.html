@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>This is a form</h1>
+  <form action="https://httpbin.org/get" method="get">
+    <fieldset style="background-color: rgba(128, 128, 128, 0.249);display: inline;float: left; ">
+        <legend>personal information</legend>
+    <label for="firstname">First Name: </label>
+    <input type="text" name="firstname" id="firstname" autocomplete="on" required placeholder="Chinmay" autofocus>
+    <br>
+    <label for="lastname">Last Name: </label>
+    <input type="text" name="lastname" id="lastname" autocomplete="on" placeholder="Agarwal" required>
+    <br>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" autocomplete="on" placeholder="Vit69*%$" required>
+    <br><label for="contact">Contact Number</label>
+    <input type="tel" name="contact Number" id="contact" autocomplete="on" placeholder="9078563412" pattern="[0-9]{10}">
+    <br><label for="size">what is optimal weight of cake:</label>
+    <input type="number" name="weight" id="size" value=400 min="150" max="900" step="50"><br>
+    <label for="coffee">Favourite Coffee:</label>
+    <select name="coffee" id="coffee" multiple size="4">
+        <optgroup label="Coffees">
+            <option value="regular">Regular coffee</option>
+            <option value="iced">Iced coffee</option>
+        </optgroup>
+        <optgroup label="Espresso Drinks">
+            <option value="latte">Cafe Latte</option>
+            <option value="cappucino" selected>Cappucino</option>
+            <option value="cortado">Cortado coffee</option>
+            <option value="americano">Cafe Americano</option>
+            <option value="other">Other</option>
+        </optgroup>
+    </select>
+    <br>
+    <label for="coffee">Favorite Coffee:</label>
+            <input type="text" name="coffee" id="coffee" list="coffee-list">
+            <datalist id="coffee-list">
+                <option value="coffee">
+                <option value="latte">
+                <option value="espresso">
+                <option value="cortado">
+                <option value="americano">
+                <option value="other">
+            </datalist>
+    <br>
+</fieldset>
+<fieldset>
+    <legend>favourite food</legend>
+    <br>
+    <input type="radio" name="food" id="tacos" value="tacos">
+    <label for="tacos">Tacos</label>
+    <br>
+    <input type="radio" name="food" id="pizza" value="pizza">
+    <label for="pizza">Pizza</label>
+    <br>
+    <input type="radio" name="food" id="other" value="other">
+    <label for="other">Other</label>
+</fieldset>
+<fieldset>
+    <legend>do u have pets?</legend>
+    <input type="checkbox" name="pets" id="dog" value="dog">
+    <label for="dog">Dog</label><br>
+    <input type="checkbox" name="pets" id="cat" value="cat">
+    <label for="cat">Cat</label><br>
+    <input type="checkbox" name="fish" id="dog" value="fish">
+    <label for="fish">Fish</label><br>
+    <input type="checkbox" name="pets" id="OtherPet" value="OtherPet">
+    <label for="OtherPet">Other</label><br>
+</fieldset>
+<br>
+<fieldset>
+    <legend>send me a note</legend>
+    <label for="message">Your Message</label>
+    <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here"></textarea>
+</fieldset>
+<br>
+<!-- <input type="submit" name="" id=""> -->
+<button type="submit">Submit</button>
+<button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post  </button>
+<button type="reset">Reset</button>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+h1{
+    font-size: 16px;
+    color: beige;
+}
+header{
+    background-image:url(https://t3.ftcdn.net/jpg/06/09/34/60/360_F_609346047_Tad8qF5iAFBOlrhCRHMznt6pAAHRSL9d.jpg);
+    color: white;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0px solid white;
+    opacity: calc(0.9);
+    height: 50px;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    font-size: 14px;
+    color: green;
+}
+p{
+    font-size: 12px;
+    color: olivedrab;
+    text-align: justify;
+}
+div{
+    border: 1px solid antiquewhite;
+     padding: 10px; 
+     margin: 10px;
+    background-color: azure;
+    opacity: calc(0.9);
+}
+img{
+    border-radius: 15%; 
+  box-shadow: 0 10px 20px 0 rgba(43, 3, 3, 0.2), 
+              0 20px 40px 0 rgba(207, 119, 150, 0.19);
+}
